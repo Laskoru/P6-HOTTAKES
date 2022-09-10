@@ -1,4 +1,5 @@
 const bcrypt = require("bcrypt");
+const { default: test } = require("node:test");
 
 const User = require("../models/User");
 
@@ -19,3 +20,4 @@ exports.signup = (req, res, next) => {
 };
 
 exports.login = (req, res, next) => {};
+test;
